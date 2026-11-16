@@ -66,7 +66,7 @@
           "background_templates": [
             "{{ if gt .Code 0 }}#f1184c{{ end }}"
           ],
-          "template": " \ufc8d ",
+          "template": " \uDB81\uDF8F ",
           "properties": {
             "always_enabled": true
           }
@@ -89,7 +89,7 @@
             "{{if eq \"Discharging\" .State.String}}#FFCD58{{end}}",
             "{{if eq \"Full\" .State.String}}#0476d0{{end}}"
           ],
-          "template": " {{ if not .Error }}{{ .Icon }}{{ .Percentage }}{{ end }}{{ .Error }}\uf295 \uf583 "
+          "template": " {{ if not .Error }}{{ .Icon }}{{ .Percentage }}{{ end }}{{ .Error }}\uf295 \uDB80\uDC84 "
         },
         {
           "background": "#006B76",
@@ -120,7 +120,7 @@
           "invert_powerline": true,
           "foreground": "#fff",
           "background": "#003543",
-          "template": "<#fff> \uf64f </>{{ .CurrentDate | date .Format }} "
+          "template": "<#fff> \uDB82\uDD54 </>{{ .CurrentDate | date .Format }} "
         }
       ]
     },
@@ -138,7 +138,7 @@
           "type": "text",
           "style": "plain",
           "foreground": "#ffe2e9",
-          "template": "\ufcd0"
+          "template": "\uDB81\uDFD2"
         }
       ],
       "newline": true
